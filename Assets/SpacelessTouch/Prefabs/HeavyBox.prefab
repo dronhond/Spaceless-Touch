@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 35
   m_Sprite: {fileID: 21300000, guid: 7a950a80311bf0f4ea8e95e029b7317a, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -153,17 +153,8 @@ MonoBehaviour:
   m_GroundDetectorRayCnt: 1
   m_GroundRayLength: 0.3
   elementType: 0
-  sr: {fileID: 1363949362072413644}
-  r2: {fileID: 1363949362072413646}
+  sr: {fileID: 0}
+  r2: {fileID: 0}
   isGrounded: 0
   v2PosX: 0
-  "\u53EF\u88AB\u7838\u788E\u7684Sprite":
-  - {fileID: 1568310916, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: 111945009, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -357853344, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -2081504053, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -25382461, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: 182701777, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -1296243226, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -149868173, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
-  - {fileID: -2056561769, guid: f841e2db209427a49a3d44e1555ae2ec, type: 3}
+  "\u53EF\u88AB\u7838\u788E\u7684Sprite": []

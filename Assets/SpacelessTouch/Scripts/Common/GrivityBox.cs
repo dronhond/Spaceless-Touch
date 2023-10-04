@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * Box class 重力箱子 南竹
+ * Player:玩家对象
+ * 可反重力物体:激活重力箱子后可以被反重力影响的对象
+ * Distance:可激活重力箱子的距离
+ */
 namespace SpacelessTouch.Scripts.Common{
 	public class GrivityBox : Box{
 		public GameObject Player;

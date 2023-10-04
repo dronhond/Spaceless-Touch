@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
+/**
+ * Box class 放置箱子系统 南竹
+ * Instance:供其他脚本调用的接口
+ * 选中箱子种类:当前放置系统中玩家选中的箱子对象
+ * DetectTilemap:地面对应的Tilemap对象，供系统检测放置的位置是否为空
+ * InlayMode:是否位于放置模式。
+ */
 
 public class LayBox : MonoBehaviour
 {

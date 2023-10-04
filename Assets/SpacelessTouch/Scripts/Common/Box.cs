@@ -79,19 +79,18 @@ namespace SpacelessTouch.Scripts.Common
 				}
             }
             else if (Math.Abs(v2PosX - mPosX) > 0.0001f) v2PosX = transform.position.x;
-            /* if (_needToStop)
-            {
-                r2.velocity =
-                    Vector3.Lerp(r2.velocity,
-                        Vector3.zero, 0.5f);
-            }
-
-            if (r2.velocity.x <= 0.01f)
-            {
-                r2.velocity = Vector2.zero;
-                _needToStop = false;
-            }
-             */
+            // if (_needToStop)
+            // {
+            //     r2.velocity =
+            //         Vector3.Lerp(r2.velocity,
+            //             Vector3.zero, 0.5f);
+            // }
+            //
+            // if (r2.velocity.x <= 0.01f)
+            // {
+            //     r2.velocity = Vector2.zero;
+            //     _needToStop = false;
+            // }
 
             GroundDetector();
         }

@@ -2,6 +2,15 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+/** Box class 闪烁箱子 南竹
+ *  作者：南竹
+ *  开发日期--
+ *  
+ *  Interval:闪烁箱子每次闪烁的间隔
+ *  NextColor():闪烁到下一个颜色
+ *  Change():改变颜色
+ */
+
 namespace SpacelessTouch.Scripts.Common{
    public class GlitteryBox : Box
     {
